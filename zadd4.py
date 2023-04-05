@@ -1,0 +1,26 @@
+a = int(input("Podaj liczbę: "))
+
+while a >= 1000:
+    a = a - 1000
+    print("M", end="")
+while a >= 900:
+    a = a - 900
+    print ("CM", end="")
+while a >= 500:
+    a = a - 500
+    print("D", end="")
+while a >= 100:
+    a = a - 100
+    print("C", end="")
+while a >= 50:
+    a = a - 50
+    print("L", end="")
+while a >= 10:
+    a = a - 10
+    print("X", end="")
+while a >= 5:
+    a = a - 5
+    print("V", end="")
+while a >= 1:
+    a = a - 1
+    print("I", end="")
